@@ -1,0 +1,33 @@
+{
+  "name": "omekaql",
+  "version": "1.0.0",
+  "description": "graphql server to access athenaeum omeka",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3rendan/OmekaQL.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Omeka",
+    "React",
+    "Apollo"
+  ],
+  "author": "Brendan Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3rendan/OmekaQL/issues"
+  },
+  "homepage": "https://github.com/3rendan/OmekaQL#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
